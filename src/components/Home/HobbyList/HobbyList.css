@@ -1,0 +1,7 @@
+.hobby-list .active {
+    color: red;
+}
+
+.hobby-list > li {
+    cursor: pointer;
+}
