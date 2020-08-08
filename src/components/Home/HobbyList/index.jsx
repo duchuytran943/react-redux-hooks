@@ -11,10 +11,11 @@ HobbyList.defaultProps = {
 
 function HobbyList(props) {
   const { hobbyList } = props;
+
   return (
     <ul>
-      {hobbyList.map(({ id, hobby }) => (
-        <li key={id}>{hobby}</li>
+      {hobbyList.map(({ id, title }) => (
+        <li key={id}>{title}</li>
       ))}
     </ul>
   );
